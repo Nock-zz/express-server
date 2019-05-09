@@ -6,4 +6,4 @@ public/
 #certificate files .pem
 *.pem
 *.p12
- 
+server.js 

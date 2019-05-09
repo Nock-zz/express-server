@@ -17,3 +17,5 @@ Create the .p12 certificate file with the following command:
 ### Update Chrome/Brave certificate exceptions
 Import the .p12 file under Edit > Preferences --> Manage certificates --> Your certificates import
 add the cert.p12 and enter the password.
+
+Finally you need to go to brave://flags and chrome://flags and set allow-insecure-localhost to enabled
