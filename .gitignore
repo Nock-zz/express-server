@@ -1,5 +1,9 @@
-#node modules
+#node modules and other directories to ignore
 node_modules/
+conversion/
+public/
 
 #certificate files .pem
-*.pem 
+*.pem
+*.p12
+ 

@@ -5,6 +5,12 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
+  display:grid;
+  grid-template-areas: "h h h"
+                       "m m m"
+                       "m m m"
+                       "m m m"
+                       "f f f";
 }
 
 .backdrop {
@@ -20,12 +26,14 @@ body {
 
 .main {
   display:flex;
+  grid-area: m;
 }
 
 
 main {
   margin-top: 3.5rem;
   flex-grow: 1;
+  
 }
 
 .main-header {
@@ -38,6 +46,7 @@ main {
   top: 0;
   left: 1;
   z-index: 1;
+  grid-area: h;
 }
 
 .main-header div {
@@ -169,6 +178,7 @@ main {
   height: 4rem;
   margin-top: 2.5rem;
   flex-shrink: 0;
+  grid-area: f;
 }
 
 .main-footer__links {
