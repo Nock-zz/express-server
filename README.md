@@ -1,6 +1,6 @@
 ## Express Server
 
-See https://hackernoon.com/set-up-ssl-in-nodejs-and-express-using-openssl-f2529eab5bb f.or fuller information
+See https://hackernoon.com/set-up-ssl-in-nodejs-and-express-using-openssl-f2529eab5bb for full information.
 
 ### Setup Steps
 Install express with npm i express.
