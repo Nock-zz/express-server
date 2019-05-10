@@ -19,7 +19,7 @@ server.use('/', express.static(path.join(__dirname, 'public')));
 https.createServer({
 	key: fs.readFileSync('./key.pem'),
         cert: fs.readFileSync('./cert.pem'),
-        passphrase: 'your_passphrase'
+        passphrase: 'imba/express-server'
 }, server).listen(8080, function () {
 	    console.log('express server listening on port 8080.');
 });
